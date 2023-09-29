@@ -26,6 +26,8 @@ body {
 .rightHalf {
     background-color: blue;
     flex: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .picBox {
@@ -45,9 +47,27 @@ body {
     margin: 0;
 }
 
-p {
+.odinText {
     font-size: 20vh;
     color: white;
     padding: 0;
     margin:0;
+}
+
+.textDiv {
+    background-color: whitesmoke;
+    flex: 1;
+}
+
+.formDiv {
+    flex: 1.5;
+    background-color: white;
+    box-shadow: 20px 3px 20px rgb(0 0 0 / 0.2);
+}
+
+.toptext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
