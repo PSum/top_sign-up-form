@@ -60,14 +60,54 @@ body {
 }
 
 .formDiv {
-    flex: 1.5;
+    flex: .75;
     background-color: white;
     box-shadow: 20px 3px 20px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .toptext {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0 100px;
+}
+
+h2 {
+    padding: 10px;
+    position: relative;
+    left: 200px;
+}
+
+.formblock {
+    padding: 10px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+#createAccount {
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(123, 159, 111);
+}
+
+.bottomtext {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 100px;
+    gap: 20px;
+}
+
+.alreadyAcc {
+    display: flex;
+    padding: 10px 0 0 0;
+    gap: 10px;
 }
